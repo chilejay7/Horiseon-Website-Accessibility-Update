@@ -1,27 +1,33 @@
+/* Universal selector used to set default box-sizing to altenative and removes
+padding, margin values */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Type selector used to add background color to body. */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Changed to use type selector and remove unneeded code for classes related to header. */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
     }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
+    border: 5px solid black;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+/*Changed color to stand out more in text*/
+h1 .seo {
+    color: orange;
 }
 
 .header div {
@@ -32,13 +38,21 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header ul {
+    padding: 15px;
+    margin-right: 20px;
     list-style-type: none;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: 5px solid black;
+    display: inline;
 }
 
-.header div ul li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
+    border: 5px solid black;
 }
 
 a {
@@ -58,6 +72,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    border: 5px solid black;
 }
 
 .float-left {
@@ -162,44 +177,27 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/*Changed to type selector to remove addtional classes.*/
+img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*Changed to use type selector of h2 and eleminate need for addtional code in form of classes*/
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/*Changed to Type selector to remove need for extra code in form of class in HTML
+document*/ 
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/*Updated to type selector and changed heading value to match sequential change to h4*/
+footer h4 {
     font-size: 20px;
-}
-
-#navmenu {
-    display: inline;
 }
