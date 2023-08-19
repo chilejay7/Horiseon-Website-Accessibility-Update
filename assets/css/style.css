@@ -102,49 +102,22 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*Consolidated classes into one new class named benefit-section in HTML to remove 
+repetitious code. */
+.benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*Updated to type selector to remove uneeded code and classes.*/
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/*Consolidated classes into one new class named benefit-section in HTML to remove 
+repetitious code. */
+.benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
