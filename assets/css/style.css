@@ -24,11 +24,13 @@ h1 {
     font-size: 48px;
 }
 
-/*Changed color to stand out more in text*/
+/* Changed color to stand out more in text */
 h1 .seo {
     color: orange;
 }
 
+/* This was changed to be more descriptive and use the nav element for targeting instead of the
+original div. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -133,8 +135,8 @@ h2 {
     font-size: 36px;
 }
 
-/*Changed to Type selector to remove need for extra code in form of class in HTML
-document*/ 
+/* Changed to Type selector to remove need for extra code in form of class in HTML
+document */ 
 footer {
     padding: 30px;
     clear: both;
@@ -142,7 +144,7 @@ footer {
     text-align: center;
 }
 
-/*Updated to type selector and changed heading value to match sequential change to h4*/
+/* Updated to type selector and changed heading value to match sequential change to h4 */
 footer h4 {
     font-size: 20px;
 }
