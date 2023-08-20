@@ -37,11 +37,7 @@ header nav {
     font-size: 20px;
 }
 
-header ul {
-    list-style-type: none;
-}
-
-header ul, li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -51,19 +47,20 @@ a {
     text-decoration: none;
 }
 
+
 p {
     font-size: 16px;
 }
 
-/* This applies to the main background image */
-.hero {
+/* The HTML code was changed to a section and the class was changed to be more descriptive
+of actual content contained. */
+.bkgrd-img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    border: 5px solid black;
 }
 
 .float-left {
@@ -93,28 +90,30 @@ p {
     background-color: #2589bd;
 }
 
-/*Consolidated classes into one new class named benefit-section in HTML to remove 
+/* Consolidated classes into one new class named benefit-section in HTML to remove 
 repetitious code. */
-.benefit-section {
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Updated to type selector to remove uneeded code and classes.*/
+/* Updated to type selector to remove uneeded code and classes.*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Consolidated classes into one new class named benefit-section in HTML to remove 
+/* Consolidated to use section class and target elements within the class to remove
 repetitious code. */
-.benefit-section img {
+.benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* Changed to use class of content and applied it to each section within that class to remove 
+extra code and classes. */
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -123,30 +122,12 @@ repetitious code. */
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Changed to type selector to remove addtional classes.*/
+/* Changed to type selector to remove addtional classes. */
 img {
     max-height: 200px;
 }
 
-/*Changed to use type selector of h2 and eleminate need for addtional code in form of classes*/
+/* Changed to use type selector of h2 and eleminate need for addtional code in form of classes*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
