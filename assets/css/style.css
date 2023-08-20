@@ -54,9 +54,9 @@ p {
     font-size: 16px;
 }
 
-/* The HTML code was changed to a section and the class was changed to be more descriptive
-of actual content contained. */
-.bkgrd-img {
+/* The HTML code was changed to a section in case addtional content needs to be added to the section in the future,
+and the class was reverted to hero. */
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
